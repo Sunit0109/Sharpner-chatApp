@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#messageDisplay {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+p {
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
